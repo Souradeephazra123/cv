@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/HTML/contactme.html -->
+<html lang="en" wtx-context="5A71832D-F7DA-4BD0-8AC4-C1D598FFCBDB"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact address</title>
+</head>
+<body>
+    
+    <h1>My contact address</h1>
+    <ul>
+        <li> vill:khostikari</li>
+        <li>p.o.:Demarihat</li>
+        <li>p.s.:Tamluk</li>
+        <li>Dist:Purba Medinipur</li>
+        <li>Email address:isouradeephazra@gmail.com</li>
+        <li>Mobile Number:8972919096</li>
+        <form action="http://127.0.0.1:5500/HTML/contactme.html" wtx-context="6BCE0CE9-6A06-485B-896B-934CAA1954DE">
+            <label for="">Your name:</label>
+            <input type="text" name="" value="" required="" wtx-context="0E463798-CDF4-49F1-BDE7-1AB80519C7E7">
+            <input type="submit" name="" wtx-context="56BDEE90-E34A-4456-A07D-4BC32BA7BF26"><br>
+             <label for="">Password:</label>
+            <input type="password" name="" value="" required="" minlength="4" maxlength="8" wtx-context="1718AAD8-6541-4B9E-862D-4C6EA2039CA1">
+            <input type="color" name="" value="" wtx-context="850C3228-FD3F-4BDC-AF1A-D2CC2D288675"><br>
+            <label for="">Date:</label>
+            <input type="date" name="" value="" wtx-context="4AECC07C-753B-4248-85C4-A54E9D477A69">
+            <br>
+            <label for="">upload file:-</label>
+            <input type="file" capture="png,jpeg" accept="png,jpeg,mp4" wtx-context="57EBBC8B-22E0-4EBE-8BFE-D25A087E2B7A">
+            <input type="checkbox" checked="yes,no" wtx-context="ABF261F5-4DF8-4E76-99CB-69F8736F0BA3"><br>
+            <input type="radio" wtx-context="98ED7316-FB3E-4118-AED8-2EB4F6595FF7">
+            <input type="range" value="99999" wtx-context="D13EB41B-6027-4520-AE58-D059F449A6F8">
+            <label for="">it is right</label><br><br>
+
+
+            <label for="">Question:</label><br>
+            <label for="">Name of our country</label><br>
+            <input type="radio" name="1" wtx-context="5BF5B74C-834F-4B72-95C4-A2312D6C4401">
+            <label for="">India</label><br>
+            <input type="radio" name="1" wtx-context="A8C514DE-D074-4D1C-8240-C2D1B35523AB">
+            <label for="">Nepal</label><br>
+            <input type="radio" name="1" wtx-context="0FCF96B1-A5B3-4DAA-837E-4451B1FFA41F">
+            <label for="">Srilanka</label><br>
+            <input type="radio" name="1" wtx-context="348DE6CA-CA6C-4218-8CCC-C264C3D90FA7">
+            <label for="">Bhutan</label><br>
+            <br>
+        </form></ul>     
+            <input type="submit" wtx-context="CB95E1E4-098E-4FB5-8B35-DC5E7472909E"><hr>
+        
+            <form action="mailto:v22089@students.iitmandi.ac.in" method="post" enctype="text/plain" wtx-context="6FB85B61-36BF-4184-8BB1-825F723C273A">
+            <label for="">Your Name</label>
+            <input type="text" name="your name" wtx-context="5BF87F66-5140-4845-A6FD-64E86FF94B1A"><br>
+            <label for="">Email</label>
+            <input type="email" name="your email" wtx-context="05C1EAD6-9913-4F55-BD20-E392558FAF73"><br>
+            <label for="">Your message</label><br>
+            <textarea name="name" id="" cols="30" rows="3"></textarea>
+            <input type="submit" wtx-context="E16E980F-5185-4C16-9FCA-9B848BC47006">
+            </form>
+     
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
