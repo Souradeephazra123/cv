@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background:#000 ;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+
+}
+h2{
+    display:flex;
+    font-size:12vw;
+    color:transparent;
+    }
+    h2 span{
+    animation:diwali 5s linear infinite;
+    animation-delay:calc(0.1s * var(--i));
+    }
+    @keyframes diwali{
+    0%{color:#fff;
+    filter:blur(1px) hue-rotate(0deg);
+    text-shadow:0 0 10px #00b3ff,
+    0 0 20px  #00b3ff;
+    0 0 20px  #00b3ff;
+    0 0 20px  #00b3ff;
+    0 0 20px  #00b3ff;
+    0 0 20px  #00b3ff;
+    0 0 20px  #00b3ff;
+    0 0 20px  #00b3ff;
+    }
+    30%,70%{
+    color:#fff;
+    filter:blur(1px) hue-rotate(0deg);
+    text-shadow:0 0 10px #00b3ff,
+    0 0 20px  #00b3ff,
+    0 0 20px  #00b3ff,
+    0 0 20px  #00b3ff,
+    0 0 20px  #00b3ff,
+    0 0 20px  #00b3ff,
+    0 0 20px  #00b3ff,
+    0 0 20px  #00b3ff;
+    }
+    100%{
+    color:transparent,
+    box-shadow:none,
+    filter:blur(2px);
+    
+    }
+    
+    
+    }
